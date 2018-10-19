@@ -1,4 +1,4 @@
-# GIT unter Windows nutzen
+# GIT in der Kommandozeile unter Windows nutzen
 
 # 1. Aufruf Eingabeaufforderung
 
@@ -24,3 +24,11 @@ Wiederholtes Drücken von [TAB] wechselt durch eventl. Alternativen
 'help <Befehlsname>' = zeigt ausführliche Info an
 
 [Pfeil hoch] / [Pfeil runter] = ruft zuvor eigegebene Befehle wieder auf
+
+# GIT in der Kommandozeile unter Linux nutzen
+
+…
+
+# GIT in der Kommandozeile unter OSX nutzen
+
+…
