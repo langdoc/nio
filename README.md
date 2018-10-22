@@ -7,5 +7,5 @@ The work is still in an preparatory phase.
 
 # Useful links
 
-[Git in der Kommandozeile unter Windows/Linus/Unix nutzen](Nuetzliche-Befehle-in-der-Eingabeaufforderung.md)
+[Git in der Kommandozeile unter Windows/Linus/Unix nutzen](JoeFrasier_Nuetzliche-Befehle-in-der-Eingabeaufforderung.md)
 
