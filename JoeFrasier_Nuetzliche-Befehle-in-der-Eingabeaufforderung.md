@@ -2,8 +2,8 @@
 
 ## 1. Aufruf Eingabeaufforderung
 
-[Windows-Taste] + [R] drücken  
-'cmd' eingeben (! Eingaben immer ohne ' '-Anführungszeichen)
+`[Windows-Taste]` + `[R]` drücken  
+`cmd` eingeben (! Eingaben immer ohne ' '-Anführungszeichen)
 
 ## 2. Grundlegende Kommandos
 
