@@ -13,7 +13,7 @@
 'cd..' = wechselt eine Verzeichnisebene höher ("zurück")  
 'cd /Pfad/Name/eingeben' = wechselt in das benannte Verzeichnis  
 'cd /Pfad/Na' + [TAB] = vervollständigt die begonnene Pfad-/Dateinamensangabe  
-    Wiederholtes Drücken von [TAB] wechselt durch eventl. Alternativen
+    * Wiederholtes Drücken von [TAB] wechselt durch eventl. Alternativen
 
 'md Verz.name' = erstellt ein neues Verzeichnis  
 'rd Verz.name' = löscht ein bestehendes Verzeichnis
@@ -21,7 +21,7 @@
 'cls' = räumt die Anzeige auf ("clear screen")
 
 'help | more' = zeigt alle verfügbaren Befehle an  
-'help <Befehlsname>' = zeigt ausführliche Info an
+'help {Befehlsname}' = zeigt ausführliche Info an
 
 [Pfeil hoch] / [Pfeil runter] = ruft zuvor eigegebene Befehle wieder auf
 
