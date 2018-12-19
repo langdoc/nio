@@ -52,5 +52,5 @@ LEXICON Adj
 ! LEXICON Noun_y
 ! Baby (Sg.) --> Babies (Pl.)
 ! +Sg:0 # ;
-!** geht durch lineare Suffixaglutination nicht
+!** Geht durch lineare Suffixagglutination nicht
 ! +Pl:ies #
