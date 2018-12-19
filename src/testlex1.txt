@@ -1,0 +1,10 @@
+Multichar_Symbols
++Pl +Sg
+
+LEXICON Root
+cat Noun;
+car Noun;
+
+LEXICON Noun
++Sg:0 # ;
++Pl:s # ;
