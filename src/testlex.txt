@@ -2,9 +2,10 @@ Multichar_Symbols
 +Pl +Sg +N +A
 
 LEXICON Root
-milk        Noun;
-car         Noun;
-pity        Noun;
+car         Noun ;
+cat         Noun ;
+milk        Noun ;
+pity        Noun ;
 
 LEXICON Noun
 # ;
