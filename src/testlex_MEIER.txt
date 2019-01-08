@@ -6,8 +6,13 @@ cat Noun;
 car Noun;
 house Noun;
 dog Noun;
+day Noun;
+roof Noun;
+rose Noun;
 child Noun2;
-
+sandwich Noun3;
+box Noun3;
+tomato Noun3; 
 
 LEXICON Noun
 +Sg:0 # ;
@@ -16,3 +21,7 @@ LEXICON Noun
 LEXICON Noun2
 +Sg:0 # ;
 +Pl: ren # ;
+
+LEXICON Noun3
++Sg:0 # ;
++Pl: es # ;
