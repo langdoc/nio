@@ -1,0 +1,56 @@
+! Testlexikon - Holger U. Nord, 986315
+! letzte Änderung: 19.12.18
+
+Multichar_Symbols
++Pl +Sg
++GenSg +GenPl
++Pos +Comp + Sup
++AdjSuff
++Adj-y +Adj-ful +Adj-less
+
+!Stammlexikon
+LEXICON Root
+cat Noun;
+car Noun;
+computer Noun;
+table Noun;
+
+fruit Noun2;
+smell Noun2;
+sleep Noun2;
+
+small Adj;
+
+! Substantivflexion
+LEXICON Noun
++Sg:0 # ;
++Pl:s # ;
+
+!Eigentlich komplette NPs
++GenSg:'s # ;
++GenPl:s' # ;
+
+! Adjektivderivation
+!** Wäre schön, wenn die Nomen der Klasse Noun2 auch die
+!** Flektionseigenschaften der Klasse 'Noun' __erben__ könnten ...
+LEXICON Noun2
+! Adjektivierung des Nomens 
++AdjSuff:0 Noun-to-Adj ;
+
+! Adjektivierungs-Suffixe
+LEXICON Noun-to-Adj
++Adj-y:y # ; ! mit -y 'fruity'
++Adj-ful:ful # ; ! mit -ful 'fruitful'
++Adj-less:less #; ! mit -less 'fruitless'
+
+! Steigerung
+LEXICON Adj
++Pos:0 # ;
++Comp:er # ;
++Sup:est # ;
+
+! LEXICON Noun_y
+! Baby (Sg.) --> Babies (Pl.)
+! +Sg:0 # ;
+!** Geht durch lineare Suffixagglutination nicht
+! +Pl:ies #
