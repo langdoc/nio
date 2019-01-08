@@ -1,0 +1,31 @@
+Multichar_Symbols
++Noun +Pl +Sg +masc +fem
+
+! Italian noun stems
+LEXICON Root
+libr noun_male;
+alber noun_male;
+negozi noun_male;
+film noun_male;
+sedi noun_female;
+speranz noun_female;
+cicatric noun_female_e_ending;
+pont noun_male_e_ending;
+
+
+LEXICON noun_male
++Noun+Sg+masc:o # ;
++Noun+Pl+masc:i # ;
++Noun+Pl+masc:0 # ;
+
+LEXICON noun_female
++Noun+Sg+fem:a # ;
++Noun+Pl+fem:e # ;
+
+LEXICON noun_female_e_ending
++Noun+Sg+fem:e # ;
++Noun+Pl+fem:i # ;
+
+LEXICON noun_male_e_ending
++Noun+Sg+masc:e # ;
++Noun+Pl+masc:i # ;
