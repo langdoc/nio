@@ -10,9 +10,8 @@ Multichar_Symbols
 +Poss3Sg
 
 LEXICON Root
-ɲim Noun ;
+ni Noun ;
 
-!hier die possive Flexion
 LEXICON Noun
-+Poss1Sg:mə # ;
-+Poss3Sg:ti # ;
++N+Poss1Sg:me # ;
++N+Poss3Sg:ti # ;
