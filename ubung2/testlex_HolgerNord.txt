@@ -1,5 +1,6 @@
 ! Testlexikon - Holger U. Nord, 986315
-! letzte Änderung: 19.12.18
+! letzte Ã„nderung: 19.12.18
+! transcoded to UTF-8: 09.01.19
 
 Multichar_Symbols
 +Pl +Sg
@@ -31,8 +32,8 @@ LEXICON Noun
 +GenPl:s' # ;
 
 ! Adjektivderivation
-!** Wäre schön, wenn die Nomen der Klasse Noun2 auch die
-!** Flektionseigenschaften der Klasse 'Noun' __erben__ könnten ...
+!** WÃ¤re schÃ¶n, wenn die Nomen der Klasse Noun2 auch die
+!** Flektionseigenschaften der Klasse 'Noun' __erben__ kÃ¶nnten ...
 LEXICON Noun2
 ! Adjektivierung des Nomens 
 +AdjSuff:0 Noun-to-Adj ;
