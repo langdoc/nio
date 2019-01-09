@@ -1,10 +1,22 @@
 Multichar_Symbols
-+Pl +Sg
++Pl 	!Plural
++Sg		!Singular
++Cmp	!Comparative
++Pos
 
+!Jetzt beginnt das Root Lex
 LEXICON Root
-cat Noun;
-car Noun;
+cat    Noun ;
+car    Noun ;
+museum Noun ;
+small  Adj  ;
 
+!Hier die Substantivflexion
 LEXICON Noun
 +Sg:0 # ;
 +Pl:s # ;
+
+LEXICON Adj
++Cmp:er # ;
++Pos:0  # ;
+
