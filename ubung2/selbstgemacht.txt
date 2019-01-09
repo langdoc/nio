@@ -1,0 +1,37 @@
+Multichar_Symbols
++Pl +Sg
+
+LEXICON Root
+tree Noun's';
+light Noun's';
+parot Noun's';
+desk Noun's';
+game Noun's';
+town Noun's';
+wish Noun'es';
+cross Noun'es';
+sweet Adj1;
+deep Adj1;
+weak Adj1;
+cute Adj2;
+true Adj2;
+
+! Nomen mit Pluralendung 's'
+LEXICON Noun's'
++Sg:0 # ;
++Pl:s # ;
+
+! Nomen mit Pluralendung 'es'
+LEXICON Noun'es'
++Sg:0 # ;
++Pl:es # ;
+
+! Adjektive 1
+LEXICON Adj1
++Comp:er # ;
++Sup:est # ;
+
+! Adjektive 2
+LEXICON Adj2
++Comp:r # ;
++Sup:st # ;
