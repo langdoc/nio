@@ -1,13 +1,18 @@
 !rules for Nganasan
 
 Multichar_Symbols
-+Pl +Sg +N +A
+!!Part of speech
++N !noun
++V !verb
+
+!!Possessive suffixes
++Poss1Sg
++Poss3Sg
 
 LEXICON Root
-car         Noun ;
-cat         Noun ;
-milk        Noun ;
-pity        Noun ;
+ɲim Noun ;
 
+!hier die possive Flexion
 LEXICON Noun
-# ;
++Poss1Sg:mə # ;
++Poss3Sg:ti # ;
