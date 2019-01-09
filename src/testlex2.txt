@@ -1,3 +1,5 @@
+!rules for Nganasan
+
 Multichar_Symbols
 +Pl +Sg +N +A
 
