@@ -1,0 +1,26 @@
+Multichar_Symbols
++Pl !Plural
++Sg !Singular
++Cmp !Komparativ
++Pos !Positiv
+
+!Jetzt beginnt das Root Lex
+LEXICON Root
+cat Noun;
+car Noun;
+can Noun;
+call Noun;
+case Noun;
+cab Noun;
+cave Noun;
+small Adj;
+
+!Substantivflexion
+LEXICON Noun
++Sg:0 # ;
++Pl:s # ;
+
+!Adjektivflexion
+LEXICON Adj
++Cmp:er # ;
++Pos:0 # ;
