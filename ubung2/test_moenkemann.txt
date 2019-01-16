@@ -1,0 +1,37 @@
+﻿!rules for Nganasan
+
+Multichar_Symbols
+!!Part of speech
++N !noun
++V !verb
++A !adjective
++D !demonstrative pronoun
+
+!!Possessive suffixes
++Poss1Sg
++Poss2Sg
++Poss3Sg
+
+!!Cases
++Acc
++Loc
+
+LEXICON Root
+ni Noun ;
+əɁə Noun ;
+ɟesɨ Noun ;
+bəðyrbye Adj ;
+təti Dem;
+
+
+
+LEXICON Noun
++N+Poss1Sg:me # ;
++N+Poss3Sg:ti # ;
+
+LEXICON Adj
++A+Acc:0 # ;
++A+Loc:tənu # ;
+
+LEXICON Dem
++D+Poss2Sg:rə # ;

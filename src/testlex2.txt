@@ -1,17 +1,25 @@
 !rules for Nganasan
+!hier Metadaten
 
 Multichar_Symbols
-!!Part of speech
+!!!Part of speech!!!
 +N !noun
 +V !verb
-
 !!Possessive suffixes
 +Poss1Sg
 +Poss3Sg
++Nom !Nominative
 
 LEXICON Root
-ni Noun ;
+ɲi Noun ;
 
 LEXICON Noun
-+N+Poss1Sg:me # ;
-+N+Poss3Sg:ti # ;
++N:0 Case ;
+
+LEXICON Case
++Nom:0 # ;
++Nom:0 Poss ;
+
+LEXICON Poss
++Poss1Sg:mə # ;
++Poss3Sg:mti # ;
