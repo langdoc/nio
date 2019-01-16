@@ -22,6 +22,20 @@ nɨ Noun ; !Frau
 hoðyr Noun ; !Dokument
 ɲaaɟətə Noun ; !Nganasan
 
-LEXICON Noun
+LEXICON Singular Possessive Nom
 +N+Poss1Sg:mə # ;
 +N+Poss3Sg:ti # ;
++N:0 # ;
+
+
+
+
+
+
+
+!!!LEXICON Noun
+!+N:0 Case ;
+
+!LEXICON Case
+!+Nom:0 # ;
+!+Nom:0 Poss ;
