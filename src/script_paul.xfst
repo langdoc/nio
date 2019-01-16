@@ -1,0 +1,7 @@
+clear
+read lexc < ..\..\Nganasan\nio\src\testlex-flag1.txt
+eliminate flag LIQUID
+eliminate flag COUNT
+read regex < ..\..\Nganasan\nio\src\testrules_paul.regex
+turn stack
+compose net
