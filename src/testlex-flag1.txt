@@ -1,0 +1,23 @@
+!test for flag diacritics
+!2019-01-16
+
+Multichar_Symbols
++Sg +Pl +N +A
+@P.LIQUID.yes@ @D.LIQUID@
+@P.COUNT.yes@ @R.COUNT.yes@
+
+LEXICON Root
+milk@P.LIQUID.yes@	Noun ;
+car@P.COUNT.yes@	Noun ;
+pity				Noun ;
+
+LEXICON Noun
++N:0 				SgPl ;
+@D.LIQUID@			Adj ;
+
+LEXICON SgPl
+< "+Pl":s "@R.COUNT.yes@" >	# ;
++Sg:0						# ;
+
+LEXICON Adj
++A:less						# ;
