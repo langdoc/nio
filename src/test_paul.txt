@@ -1,0 +1,22 @@
+!rules for Nganasan
+
+Multichar_Symbols
+!!Part of speech
++N !noun
++V !verb
+
+!!Possessive suffixes
++Poss1Sg
++Poss3Sg
+
+LEXICON Root
+ɲi Noun ;   !Name
+əʔə Noun ;  !Onkel
+nɨ Noun ; !Frau
+ɟesɨ Noun ; !Vater
+ŋanə Noun ; !Mund
+ɲyə Noun ; !Kind
+
+LEXICON Noun
++N+Poss1Sg:mə # ;
++N+Poss3Sg:ti # ;
