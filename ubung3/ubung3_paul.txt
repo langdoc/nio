@@ -1,0 +1,29 @@
+
+Multichar_Symbols
++N +Nom +Elat +Poss3Sg +Poss1Sg
+
+
+LEXICON Root
+ma? Noun ;
+ku? Noun ;
+tugI? Noun ;
+Nim Noun ;
+NaN Noun ;
+
+LEXICON Noun
++N:0 Case ;
+
+LEXICON Case
++Nom:0 # ;
++Nom:0 Poss ;
++Elat:kEtE # ;
+
+LEXICON Poss
++Poss1Sg:mE # ;
++Poss3Sg:tu # ;
+
+!Legende
+! ɲ -> N
+! ə -> E
+! ɨ -> I
+! ? -> ?
