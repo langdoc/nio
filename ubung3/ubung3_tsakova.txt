@@ -42,7 +42,7 @@ LEXICON Poss
 +Poss3Sg:tu # ;
 
 
-!Da ich nicht sicher bin, dass es mit den Regeln
+!Da ich nicht sicher bin, dass die Datei mit den Regeln
 !funktionieren wird...hier die noch mal:
 !	[ N -> n || _t ]
 !	.°.
