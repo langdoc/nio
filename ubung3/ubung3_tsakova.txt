@@ -1,0 +1,58 @@
+﻿!rules for Nganasan
+!hier Metadaten
+
+Multichar_Symbols
+!!!Part of speech!!!
++N !noun
++V !verb
+!!Possessive suffixes
++Poss1Sg
++Poss3Sg
++Nom !Nominative
++Elat !Elativ
+
+!-------------------------
+!Regeln für die Buchstaben
+!-------------------------
+! ɲ = N
+! ə = E
+! ɨ = i
+! ? = A
+!-------------------------
+
+
+LEXICON Root
+Ni Noun ;
+maA Noun;	!"tent","mɑɁ"
+kuA Noun;	!"cough","kuɁ"
+tugiA Noun;	!"cloth","tuɡɨɁ"
+Nim Noun;	!"name","ɲim"
+NaN Noun;	!"mouth","ŋɑŋ"
+
+LEXICON Noun
++N:0 Case ;
+
+LEXICON Case
++Nom:0 # ;
++Nom:0 Poss ;
++Elat: kEtE #;
+
+LEXICON Poss
++Poss1Sg:mE # ;
++Poss3Sg:tu # ;
+
+
+!Da ich nicht sicher bin, dass es mit den Regeln
+!funktionieren wird...hier die noch mal:
+!	[ N -> n || _t ]
+!	.°.
+!	[ m -> 0 || _m ]
+!       .°.
+!	[ N -> 0 || _m ]
+!       .°.
+!	[A -> 0 || _ [k | m | t ] ]
+!	.°.
+!	[ [ m | N ] -> 0 || _m ];
+
+
+!Die haben soweit funktioniert.
