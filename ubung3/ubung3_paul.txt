@@ -1,6 +1,11 @@
-
+﻿
 Multichar_Symbols
-+N +Nom +Elat +Poss3Sg +Poss1Sg
++N !noun
++Nom !Nominative
++Elat !Elativ
+!!Possessive suffixes
++Poss3Sg 
++Poss1Sg
 
 
 LEXICON Root
@@ -22,8 +27,3 @@ LEXICON Poss
 +Poss1Sg:mE # ;
 +Poss3Sg:tu # ;
 
-!Legende
-! ɲ -> N
-! ə -> E
-! ɨ -> I
-! ? -> ?
