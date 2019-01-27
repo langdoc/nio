@@ -1,0 +1,7 @@
+clear
+read lexc < ..\src\testlex-flag1.txt
+eliminate flag LIQUID
+eliminate flag COUNT
+read regex < ..\src\testrules_paul.regex
+turn stack
+compose net

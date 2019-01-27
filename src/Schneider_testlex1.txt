@@ -1,0 +1,48 @@
+Multichar_Symbols
++Pl +Sg
+
+LEXICON Root
+cat Noun's';
+rat Noun's';
+car Noun's';
+bar Noun's';
+tree Noun's';
+flower Noun's';
+fox Noun'es';
+christmas Noun'es';
+nice Adj1;
+close Adj1;
+blue Adj1;
+warm Adj2;
+cold Adj2;
+
+! Nomen mit Pluralendung 's'
+LEXICON Noun's'
++Sg:0 # ;
++Pl:s # ;
+
+! Nomen mit Pluralendung 'es'
+LEXICON Noun'es'
++Sg:0 # ;
++Pl:es # ;
+
+! Adjektive 1
+LEXICON Adj1
++Comp:r # ;
++Sup:st # ;
+
+! Adjektive 2
+LEXICON Adj2
++Comp:er # ;
++Sup:est # ;
+
+
+! Eine Frage, die sich mir stellt, ist,
+! wie ich am besten mit geschlossenen Klassen,z.B. Präpositionen
+! umgehe.
+
+
+
+!1.Im Terminal in bin Ordner navigieren.
+!2. xfst
+!3. read lexc < Dateipfad
