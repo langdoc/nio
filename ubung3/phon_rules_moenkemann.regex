@@ -1,0 +1,15 @@
+!Phonetische Regeln anhand der Daten im Aufgabenblatt S-FST-WS2018-190122
+!wegen UTF8-Inkompatibilität werden folgende Zeichen ersetzt:
+!  %?=Ɂ , I=ɨ , N=ŋ , E=ə, L=lʲ
+
+!Tilgung von "Ɂ" vor Nasalen, Plosiven und Liquiden
+[ %? -> 0 || _[ m | n | N | b | t | c | k | %? | l | L ] ];
+
+!Tilgung von "m" vor m
+[ m -> 0 || _m ];
+
+!Tilgung von "ŋ" vor Nasalen und Liquiden
+[ N -> 0 || _[ m | n | N | l | L ] ];
+
+!Alternierung von "ŋ" zu "n" vor Plosiven
+[ N -> n || _[ b | t | c | k | %? ] ];
