@@ -10,12 +10,12 @@ car Noun ;
 pity Noun ;
 
 LEXICON Noun
-+N:0 				SgPl ;
-			Adj ;
++N:0 SgPl ;
+Adj ;
 
 LEXICON SgPl
 +Pl:s # ;
-+Sg:0						# ;
++Sg:0 # ;
 
 LEXICON Adj
-+A:less						# ;
++A:less	# ;
