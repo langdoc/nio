@@ -1,0 +1,17 @@
+﻿Multichar_Symbols
++N !noun +Nom !Nominative +Elat !Elativ +Poss3Sg +Poss1Sg
+
+
+LEXICON Root
+ma? Noun ;
+ku? Noun ;
+tugI? Noun ;
+Nim Noun ;
+NaN Noun ;
+
+
+LEXICON Noun
++Nom:0 # ;
++Poss1Sg:m? # ; 
++Poss3Sg:tu # ; 
++Elat:k?t? # ; 

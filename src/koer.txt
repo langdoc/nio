@@ -1,0 +1,34 @@
+﻿!rules for Nganasan
+!hier Metadaten
+
+Multichar_Symbols
+!!!Part of speech!!!
++N 
++V
+
+!!Possessive suffixes
++Poss1Sg
++Poss3Sg
+
+!Kasus 
++Nom 
++Acc
++Lat 
++Com 
+
+LEXICON Root
+ni Noun ;
+səɟəəʔ Noun1 ;
+bəðyrbyə Noun2 ;
+
+LEXICON Noun
++N+Poss1Sg:me # ;
++N+Poss3Sg:ti # ;
+
+LEXICON Noun1 
++N+Acc:0 # ;
++N+Lat:mənu # ;
+
+LEXICON Noun2
++N+Acc:0 # ;
++N+com:tənu # ;

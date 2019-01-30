@@ -1,0 +1,19 @@
+Multichar_Symbols
+
++N +Nom +Elat +Poss3Sg +Poss1Sg
+
+
+LEXICON Root
+maʔ  Noun ; !'tent'
+kuʔ  Noun ; !'cough'
+tugɨʔ  Noun ; !'cloth'
+ɲim Noun ; !'name'
+ŋaŋ Noun ; !'mouth'
+
+
+LEXICON Noun
++Nom:0 # ;
++Poss1Sg:mə # ; !'my'
++Poss3Sg:tu # ; !'his/ her'
++Elat:kətə # ; !'from the'
+

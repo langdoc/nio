@@ -1,0 +1,31 @@
+﻿!Test für phonologische Regeln
+!2019-01-28
+!wegen UTF8-Inkompatibilität werden folgende Zeichen ersetzt:
+!  ?=Ɂ , I=ɨ , N=ŋ , E=ə
+
+Multichar_Symbols
+
+!Word class
++N
+
+!Possessive suffixes
++Poss1Sg
++Poss2Sg
++Poss3Sg
+
+!Cases
++Nom
++Elat
+
+LEXICON Root
+ku? Noun ;
+ma? Noun ;
+tugI? Noun ;
+Nim Noun ;
+NaN Noun ;
+
+LEXICON Noun
++N+Nom:0 # ;
++N+Elat:kEtE # ;
++N+Poss3Sg:tu # ;
++N+Poss1Sg:mE # ;

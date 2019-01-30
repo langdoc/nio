@@ -1,0 +1,8 @@
+!Phonologische Regeln für Nagasan
+!last change: 2019-01-23, nord
+
+[ y−>i || _l e s s ] ;
+[ Ɂ->0 || _[mnŋɲbtckɁllʲ] ];
+[ m−>0 || _m ] ;
+[ ŋ−>0 || _[mnŋɲllʲ] ] ;
+[ ŋ−>n || _[btck] ] ;

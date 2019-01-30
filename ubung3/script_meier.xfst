@@ -1,0 +1,5 @@
+clear
+read lexc < /home/nina/Schreibtisch/WiSe_1819/Computerlinguistik/endliche_Automaten/lexicon_meier.txt
+read regex < /home/nina/Schreibtisch/WiSe_1819/Computerlinguistik/endliche_Automaten/testrules_meier.regex
+turn stack
+compose net
