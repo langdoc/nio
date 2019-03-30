@@ -1,0 +1,72 @@
+﻿!Palatalisationsspuren in der bulgarischen Sprache
+!hier Metadaten
+
+Multichar_Symbols
+!!!Part of speech!!!
++N 	!noun
++V 	!verb
++Adj	!Adjektive
++Pl	!Plural
++Sg	!Singular
+
+!--------------------------!
+!Regeln für die Buchstaben !
+!--------------------------!
+! a = a		п = p	   !
+! б = b		р = r      !
+! в = w/v	с = s      !
+! г = g		т = t      !
+! д = d		у = u      !
+! е = e		ф = f      !
+! ж = zh	х = h/x    !
+! з = z		ц = ts     !
+! и = i		ч = tsch   !
+! й = j		ш = sch	   !	
+! к = k		щ = st     !
+! л = l		Ъ = y      !
+! м = m		ъ = y      !
+! н = n		ю = ju     !
+! о = o		я = ja     !
+!--------------------------!
+
+
+LEXICON Root
+oko Noun1 ;	!"oko"-	dt. Auge
+uho Noun1;	!"ухо" - dt. Ohr
+oblak Noun2;	!"облак"- dt. Wolke
+tih Adj;	!"тих" - dt. leise
+ryka Noun4;	!"ръка"- dt. Hand
+utschenik Noun4;!"ученик" - dt. Schüler
+monah Noun4;	!"монах" - dt. Mönch
+oblog Noun4;	!"облог" - dt. Wette
+litse Noun5;	!"лице" - dt. Gesicht
+starets Noun5;	!"старец" - dt. der Alte
+
+
+
+
+
+
+LEXICON Noun1		!erste Palatalisation
++Sg:0 #;
++Pl:i #;
+
+LEXICON Noun2		!erste Palatalisation
++Sg:0 #;
++Pl:e #;
+
+
+LEXICON Adj		!erste Palatalisation
++Adj:0 #;
++N+Sg:ina #;
+
+
+LEXICON Noun4		!zweite Palatalisation
++Sg:0 #;
++Pl:i #;
+
+LEXICON Noun5		!dritte Palatalisation	
++N+Sg:0 #;
++N+Sg:ik #;		
+
+

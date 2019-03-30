@@ -1,0 +1,204 @@
+﻿Copyright ┬® Palo Alto Research Center 2001-2019
+PARC Finite-State Tool, version 2.15.7 (libcfsm-2.25.11) (svn 34269)
+
+Type "help" to list all commands available or "help help" for further help.
+
+xfst[0]:  read lexc C:/Users/lilit/Desktop/tsakova-projekt.txt
+ read lexc C:/Users/lilit/Desktop/tsakova-projekt.txt
+Opening input file 'C:/Users/lilit/Desktop/tsakova-projekt.txt'
+March 30, 2019 11:29:37 GMT
+Reading UTF-8 text from 'C:/Users/lilit/Desktop/tsakova-projekt.txt'
+Root...10, Noun1...2, Noun2...2, Adj...2, Noun4...2, Noun5...2
+Building lexicon...Minimizing...Done!
+3.6 Kb. 43 states, 55 arcs, 20 paths.
+Closing 'C:/Users/lilit/Desktop/tsakova-projekt.txt'
+xfst[1]: print words
+print words
+oko+Sg:0
+oko+Pl:i
+oblak+Sg:0
+oblak+Pl:e
+oblog+Sg:0
+oblog+Pl:i
+uho+Sg:0
+uho+Pl:i
+utschenik+Sg:0
+utschenik+Pl:i
+tih+Adj:0
+tih+N:i0:n0:a
+ryka+Sg:0
+ryka+Pl:i
+monah+Sg:0
+monah+Pl:i
+litse+N:0+Sg:0
+litse+N:i+Sg:k
+starets+N:0+Sg:0
+starets+N:i+Sg:k
+xfst[1]: read regex [ ko -> tschi ];
+read regex [ ko -> tschi ];
+2.1 Kb. 1 state, 3 arcs, Circular.
+xfst[2]: down oko
+down oko
+otschi
+xfst[2]: apply down oko
+apply down oko
+otschi
+xfst[2]: apply up otschi
+apply up otschi
+otschi
+oko
+xfst[2]: turn stack
+turn stack
+xfst[2]: read regex [ ho -> schi ] ;
+read regex [ ho -> schi ] ;
+2.1 Kb. 1 state, 3 arcs, Circular.
+xfst[3]: down uho
+down uho
+uschi
+xfst[3]: apply down uho
+apply down uho
+uschi
+xfst[3]: apply up uschi
+apply up uschi
+uschi
+uho
+xfst[3]: turn stack
+turn stack
+xfst[3]: read regex [ k -> tsche ];
+read regex [ k -> tsche ];
+2.1 Kb. 1 state, 3 arcs, Circular.
+xfst[4]: down oblak
+down oblak
+oblatsche
+xfst[4]: apply down oblak
+apply down oblak
+oblatsche
+xfst[4]: turn stack
+turn stack
+xfst[4]: read regex [ h -> sch ];
+read regex [ h -> sch ];
+2.1 Kb. 1 state, 3 arcs, Circular.
+xfst[5]: down tih
+down tih
+tisch
+xfst[5]: apply down tih
+apply down tih
+tisch
+xfst[5]: turn stack
+turn stack
+xfst[5]: read regex [ ka -> tse || y_ ] ;
+read regex [ ka -> tse || y_ ] ;
+2.2 Kb. 2 states, 8 arcs, Circular.
+xfst[6]: down ryka
+down ryka
+rytse
+xfst[6]: apply down ryka
+apply down ryka
+rytse
+xfst[6]: turn stack
+turn stack
+xfst[6]: read regex [ k -> tsi ];
+read regex [ k -> tsi ];
+2.1 Kb. 1 state, 3 arcs, Circular.
+xfst[7]: down utschenik
+down utschenik
+utschenitsi
+xfst[7]: aplly down utschenik
+aplly down utschenik
+
+*** Warning: command 'aplly' not found ***
+
+Error - command not executed
+xfst[7]: apply down utschenik
+apply down utschenik
+utschenitsi
+xfst[7]: turn stack
+turn stack
+xfst[7]: read regex [ h -> si ]  ;
+read regex [ h -> si ]  ;
+2.1 Kb. 1 state, 3 arcs, Circular.
+xfst[8]: down monah
+down monah
+monasi
+xfst[8]: aplly down monah
+aplly down monah
+
+*** Warning: command 'aplly' not found ***
+
+Error - command not executed
+xfst[8]: apply down monah
+apply down monah
+monasi
+xfst[8]: turn stack
+turn stack
+xfst[8]: read regex [ g -> zi ];
+read regex [ g -> zi ];
+2.1 Kb. 1 state, 3 arcs, Circular.
+xfst[9]: down oblog
+down oblog
+oblozi
+xfst[9]: apply down oblog
+apply down oblog
+oblozi
+xfst[9]: turn stack
+turn stack
+xfst[9]: read regex [ [e | i ] ts (e) -> ik ];
+read regex [ [e | i ] ts (e) -> ik ];
+2.5 Kb. 4 states, 22 arcs, Circular.
+xfst[10]: down starets
+down starets
+starik
+xfst[10]: apply down starets
+apply down starets
+starik
+xfst[10]: down litse
+down litse
+like
+lik
+xfst[10]: apply down litse
+apply down litse
+like
+lik
+xfst[10]: turn stack
+turn stack
+xfst[10]: print words
+print words
+
+zi
+?
+g:zi
+xfst[10]: compose net
+compose net
+2.6 Kb. 15 states, 16 arcs, 4 paths.
+xfst[1]: save stack script.xfst
+save stack script.xfst
+Opening output file 'script.xfst'
+Closing 'script.xfst'
+xfst[1]: save stack xfst.script
+save stack xfst.script
+Opening output file 'xfst.script'
+Closing 'xfst.script'
+xfst[1]: print words
+print words
+starets+N:i+Sg:tsche
+starets+N:0+Sg:0
+litse+N:i+Sg:tsche
+litse+N:0+Sg:0
+xfst[1]: source C:/Users/lilit/Desktop/Nganasan/script.xfst
+source C:/Users/lilit/Desktop/Nganasan/script.xfst
+Opening input file 'C:/Users/lilit/Desktop/Nganasan/script.xfst'
+March 30, 2019 11:49:20 GMT
+
+*** Warning: 'C:/Users/lilit/Desktop/Nganasan/script.xfst' appears not to be a text file. ***
+Closing 'C:/Users/lilit/Desktop/Nganasan/script.xfst'
+
+*** ERROR: fopen_text_file() failed. ***
+xfst[1]: source C:/Users/lilit/Desktop/Nganasan/xfst.script
+source C:/Users/lilit/Desktop/Nganasan/xfst.script
+Opening input file 'C:/Users/lilit/Desktop/Nganasan/xfst.script'
+March 30, 2019 11:49:43 GMT
+
+*** Warning: 'C:/Users/lilit/Desktop/Nganasan/xfst.script' appears not to be a text file. ***
+Closing 'C:/Users/lilit/Desktop/Nganasan/xfst.script'
+
+*** ERROR: fopen_text_file() failed. ***
