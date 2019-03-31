@@ -1,0 +1,55 @@
+﻿Multichar_Symbols
+
+!World class
++N !Noun !Pl
+
+!Cases
++Akk
++Dativ
+
+!Possesive suffixes
+
++Poss1Sg
++Poss2Sg
++Poss3Sg
+
+LEXICON Root
+
+corap Noun; !dt. Socke
+kitap Noun; !dt. Buch
+denk Noun; !dt. Balle
+dolap Noun; !dt. Schrank
+inat Noun; !dt Eigensinn
+
+LEXICON Noun
++N+Akk:i # ;
++N+Dat:a # ;
++N+Poss1Sg:im # ;
++N+Poss2Sg:in # ;
++N+Poss3Sg:i # ;
++N+Poss1Pl:imiz # ;
++N+Poss2Pl:iniz # ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,177 @@
+Copyright -® Palo Alto Research Center 2001-2019
+PARC Finite-State Tool, version 2.15.7 (libcfsm-2.25.11) (svn 34269)
+
+Type "help" to list all commands available or "help help" for further help.
+
+xfst[0]: clear
+clear
+xfst[0]: read lexc C:/Users/aylin/Desktop/Bericht-Koer/lexicon.txt
+read lexc C:/Users/aylin/Desktop/Bericht-Koer/lexicon.txt
+Opening input file 'C:/Users/aylin/Desktop/Bericht-Koer/lexicon.txt'
+March 31, 2019 13:14:23 GMT
+Reading UTF-8 text from 'C:/Users/aylin/Desktop/Bericht-Koer/lexicon.txt'
+Root...5, Noun...7
+Building lexicon...Minimizing...Done!
+3.4 Kb. 33 states, 42 arcs, 35 paths.
+Closing 'C:/Users/aylin/Desktop/Bericht-Koer/lexicon.txt'
+xfst[1]: read regex [ p -> b || _.#. ];
+read regex [ p -> b || _.#. ];
+2.2 Kb. 3 states, 8 arcs, Circular.
+xfst[2]: down corap
+down corap
+corab
+xfst[2]: turn stack
+turn stack
+xfst[2]: read regex [ p -> b || _.#. ];
+read regex [ p -> b || _.#. ];
+2.2 Kb. 3 states, 8 arcs, Circular.
+xfst[3]: down dolap
+down dolap
+dolab
+xfst[3]: turn stack
+turn stack
+xfst[3]: read regex [ k -> g || _.#. ];
+read regex [ k -> g || _.#. ];
+2.2 Kb. 3 states, 8 arcs, Circular.
+xfst[4]: down denk
+down denk
+deng
+xfst[4]: turn stack
+turn stack
+xfst[4]: read regex [ t -> d || _.#. ];
+read regex [ t -> d || _.#. ];
+2.2 Kb. 3 states, 8 arcs, Circular.
+xfst[5]: down inat
+down inat
+inad
+xfst[5]: compose net
+compose net
+3.1 Kb. 29 states, 37 arcs, 30 paths.
+xfst[1]: print words
+print words
+inat+N:i+Poss1Sg:m
+inat+N:i+Poss2Sg:n
+inat+N:i+Akk:0
+inat+N:i+Poss3Sg:0
+inat+N:i+:nP:io:zs:0s:02:0P:0l:0
+inat+N:i+:mP:io:zs:0s:01:0P:0l:0
+dolap+N:i+Poss1Sg:m
+dolap+N:i+Poss2Sg:n
+dolap+N:i+Akk:0
+dolap+N:i+Poss3Sg:0
+dolap+N:i+:nP:io:zs:0s:02:0P:0l:0
+dolap+N:i+:mP:io:zs:0s:01:0P:0l:0
+denk+N:i+Poss1Sg:m
+denk+N:i+Poss2Sg:n
+denk+N:i+Akk:0
+denk+N:i+Poss3Sg:0
+denk+N:i+:nP:io:zs:0s:02:0P:0l:0
+denk+N:i+:mP:io:zs:0s:01:0P:0l:0
+corap+N:i+Poss1Sg:m
+corap+N:i+Poss2Sg:n
+corap+N:i+Akk:0
+corap+N:i+Poss3Sg:0
+corap+N:i+:nP:io:zs:0s:02:0P:0l:0
+corap+N:i+:mP:io:zs:0s:01:0P:0l:0
+kitap+N:i+Poss1Sg:m
+kitap+N:i+Poss2Sg:n
+kitap+N:i+Akk:0
+kitap+N:i+Poss3Sg:0
+kitap+N:i+:nP:io:zs:0s:02:0P:0l:0
+kitap+N:i+:mP:io:zs:0s:01:0P:0l:0
+xfst[1]: print lower-words
+print lower-words
+inatim
+inatin
+inati
+inati
+inatiniz
+inatimiz
+dolapim
+dolapin
+dolapi
+dolapi
+dolapiniz
+dolapimiz
+denkim
+denkin
+denki
+denki
+denkiniz
+denkimiz
+corapim
+corapin
+corapi
+corapi
+corapiniz
+corapimiz
+kitapim
+kitapin
+kitapi
+kitapi
+kitapiniz
+kitapimiz
+xfst[1]:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
