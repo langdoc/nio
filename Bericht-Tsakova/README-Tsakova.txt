@@ -67,6 +67,7 @@ So würden alle Wörter bis eine kleine Ausnahme ( das Wort "litse") richtig mit
 Mögliche Fehlerquellen:
 Es besteht die Möglichkeit,dass die regulären Ausdrücken nicht in der richtigen Reihenfolge ausgeführt werden. Mir fehlt die Information, wie genau ich eine .xfst- Datei mit der richtigen UTF-8 Kodierung speichern kann, auch wenn ich die zur Verfügung gestellte Literatur gelesen habe.
 Ein weiteres Problem war die Generierung der regulären Ausdrücken, wenn sich der betroffene Konsonant nicht am Wortende befindet.
+Es bestehen nach wie vor Probleme mit der Windows - Kompatibilität.
 
 
 
