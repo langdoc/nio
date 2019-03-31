@@ -35,7 +35,7 @@ oko Noun1 ;	!"oko"-	dt. Auge
 uho Noun1;	!"ухо" - dt. Ohr
 oblak Noun2;	!"облак"- dt. Wolke
 tih Adj;	!"тих" - dt. leise
-ryka Noun4;	!"ръка"- dt. Hand
+ryka Noun3;	!"ръка"- dt. Hand
 utschenik Noun4;!"ученик" - dt. Schüler
 monah Noun4;	!"монах" - dt. Mönch
 oblog Noun4;	!"облог" - dt. Wette
@@ -59,6 +59,10 @@ LEXICON Noun2		!erste Palatalisation
 LEXICON Adj		!erste Palatalisation
 +Adj:0 #;
 +N+Sg:ina #;
+
+LEXICON Noun3		!zweite Palatalisation
++Sg:0 #;
++Pl:e #;
 
 
 LEXICON Noun4		!zweite Palatalisation
